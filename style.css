@@ -1,0 +1,114 @@
+body {
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+h2 {
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+li::marker {
+    color: #ff4500; /* Pomarańczowy kolor kropek */
+    font-size: 1.5rem; /* Większe kropki */
+  }
+
+.lekcje {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.lekcja {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.lekcja-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+.opinie p {
+    font-style: italic;
+    background-color: #eef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px; line-height: 1.6;
+    line-height: 1.2;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #574fd6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    margin-top: 40px;
+}
+
+.top-bar {
+    height: 6px;
+    background: linear-gradient(to right, #C84B4B 33%, white 33%, white 66%, #2F5DAA 66%);
+}
