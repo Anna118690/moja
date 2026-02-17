@@ -2,6 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna Lasko - Lekcje języków obcych</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
@@ -73,15 +74,15 @@
         </div>
     </section>
 
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <form>
-            <label>Imię:<br><input type="text" name="imie"></label><br>
-            <label>Email:<br><input type="email" name="email"></label><br>
-            <label>Wiadomość:<br><textarea name="wiadomosc"></textarea></label><br>
-            <button type="button" onclick="wyslij()">Wyślij wiadomość</button>
-        </form>
-    </section>
+    <section class="kontakt">
+  <h2>Kontakt</h2>
+  <form action="https://formspree.io/f/mreakwvj"   method="POST">
+    <input type="text" name="name" placeholder="Twoje imię" required>
+    <input type="email" name="email" placeholder="Twój email" required>
+    <textarea name="message" placeholder="Wiadomość" rows="5" required></textarea>
+    <button type="submit">Wyślij wiadomość</button>
+</form>
+</section>
 
     <footer>
         <p>&copy; 2026 Anna Lasko</p>
